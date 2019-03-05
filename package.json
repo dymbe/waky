@@ -1,0 +1,17 @@
+{
+  "name": "waky",
+  "version": "0.0.0",
+  "description": "An alarm clock",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "i2c-bus": "^4.0.8",
+    "oled-font-5x7": "^1.0.3",
+    "oled-i2c-bus": "^1.0.11",
+    "rpi-gpio": "^2.1.3"
+  }
+}
