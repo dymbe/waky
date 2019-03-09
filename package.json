@@ -1,14 +1,22 @@
 {
   "name": "waky",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "An alarm clock",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dymbe/waky.git"
+  },
+  "author": "Erik Dymbe, Sander Hestvik",
   "license": "ISC",
-  "devDependencies": {
+  "bugs": {
+    "url": "https://github.com/dymbe/waky/issues"
+  },
+  "homepage": "https://github.com/dymbe/waky#readme",
+  "dependencies": {
     "i2c-bus": "^4.0.8",
     "oled-font-5x7": "^1.0.3",
     "oled-i2c-bus": "^1.0.11",
